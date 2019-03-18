@@ -70,7 +70,7 @@ def upload_site(request):
             project = form.save(commit=False)
             project.user = request.user
             project.save()
-        return redirect('index')
+        return redirect('welcome')
     else:
         form = UploadSiteForm()
 

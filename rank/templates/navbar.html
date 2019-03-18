@@ -8,12 +8,13 @@
                 <input type="submit" value="Search" class="btn btn-secondary my-2 my-sm-0">
             </form>
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="#navDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">APIs</a>
+                
+                <!--<li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle" id="#navDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">APIs</a>
                     <div class="dropdown-menu" aria-labelledby="navDropdown">
                         <a href="/api/profiles/" class="dropdown-item">Profiles</a><a href="/api/projects/" class="dropdown-item">Projects</a>
                     </div>
-                </li>
+                </li>-->
+                   
                 {% if user.is_authenticated %}
                 <li class="nav-item">
                     <a href="/profile/{{user}}" class="nav-link">Profile</a>
@@ -30,7 +31,7 @@
 </li>
                 {% endif %}
                 <li class="nav-item">
-                    <a href="{% url 'upload' %}" class="nav-link">SUBMIT YOUR SITE!</a>
+                    <a href="{% url 'upload' %}" class="nav-link">POST SITE</a>
                 </li>
             </ul>
         </div>
