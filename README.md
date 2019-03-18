@@ -28,12 +28,12 @@ A Website Award application that allows  see top websites posted by users
     **Input Example**: Click on See More
 
     **Output Example**: Redirected to the single project page with the project's description
-<!-- 
+
 * The program should navigate to the vote form when Vote is clicked:
 
     **Input Example**: Click on Vote button
 
-    **Output Example**: A vote form pops up -->
+    **Output Example**: A vote form pops up
 
 * The program should navigate to the profile editing form when the My Account is clicked on the navigation bar:
 
