@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from .models import  MoringaMerch
-from .serializer import ProfileSerializer, ProjectSerializer
+from .serializer import MerchSerializer
 from .models import Profile, Project, Review
 
 
