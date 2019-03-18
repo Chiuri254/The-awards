@@ -1,15 +1,15 @@
 # Awards
-#### A Website Award application that allows  see top websites
+#### A Website Award application that allows  see top websites posted by users
 ### By **JOSEPH CHIURI**
 ## Description
-A  Website award application 
+A Website Award application that allows  see top websites posted by users
 ## Behavior Driven Development
 
-* The program should navigate to the index page on load:
+* The program should navigate to the welcome page on load:
 
     **Input Example**: On page load
 
-    **Output Example**: Navigate to the home/index page
+    **Output Example**: Navigate to the welcome page
 
 * The program should navigate to sign up page when Sign Up is    clicked on the navigation bar:
 
