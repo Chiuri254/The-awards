@@ -6,7 +6,7 @@ from django.views.generic import RedirectView
 
 urlpatterns=[
     url('^$',views.welcome,name = 'welcome'),
-   url(r'^sites/(\d+)$', views.project, name='project'),
+    url(r'^sites/(\d+)$', views.project, name='project'),
     url(r'^upload/$', views.upload_site, name='upload'),
     url(r'^profile/(?P<username>\w{0,50})/$', views.profile, name='profile'),
     url(r'^update_profile/(\d+)$', views.update_profile, name='update_profile'),

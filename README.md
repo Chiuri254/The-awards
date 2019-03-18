@@ -1,37 +1,16 @@
-# Photo Garage
-#### A  photo garage application that allows one display their photos
-#### By **JOSEPH CHIURI**
+# Awards
+#### A Website Award application that allows  see top websites
+### By **JOSEPH CHIURI**
 ## Description
-A  photo garage application that allows users to see different categories of photos based on the location
+A  Website award application 
 ## Behavior Driven Development
-* The program should show various photos;
 
-     **Input Example**: On page load
-
-     **Output Example**: Category of photos are displayed on landing page
-
-* The program should navigate to pages with photos for a specified location when a  location is clicked:
-
-     **Input Example**: Click on **Nairobi** on the navigation bar
-
-     **Output Example**: Redirected to a page with photos taken in Nairobi
-
-* The program should navigate to the searched category when a category is entered on the navigation search:
-
-    **Input Example**: Enter fashion in the navigation search
-
-    **Output Example**: Redirected to the page with photos on fashion category
-* The program should navigate home page when the app name is clicked on the navbar:
-
-     **Input Example**: Click on **The Photo Garage** on the navigation bar
-
-     **Output Example**: Redirected to the home page
 
 ## Setup/Installation Requirements
 To start using this project use the following commands:
 
-* `git clone https://github.com/Chiuri254/My-blog.git`
-* `cd The-Photo-Garage`
+* `git clone https://github.com/Chiuri254/The-awards.git`
+* `cd The-Awards`
 * `atom .`
 * `code . `(this is if Visual Studio Code is your preferred text editor)
 
