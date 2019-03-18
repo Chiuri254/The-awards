@@ -5,6 +5,49 @@
 A  Website award application 
 ## Behavior Driven Development
 
+* The program should navigate to the index page on load:
+
+    **Input Example**: On page load
+
+    **Output Example**: Navigate to the home/index page
+
+* The program should navigate to sign up page when Sign Up is    clicked on the navigation bar:
+
+    **Input Example**: Click on Sign Up on the navigation bar
+
+    **Output Example**: Redirected to the sign up page
+
+* The program should navigate to the login page when Login is clicked on the navigation bar:
+
+    **Input Example**: Click on Login on the navigation bar
+
+    **Output Example**: Redirected to the login page
+
+* The program should direct the user to the page with a single project with description and vote button:
+
+    **Input Example**: Click on See More
+
+    **Output Example**: Redirected to the single project page with the project's description
+
+* The program should navigate to the vote form when Vote is clicked:
+
+    **Input Example**: Click on Vote button
+
+    **Output Example**: A vote form pops up
+
+* The program should navigate to the profile editing form when the My Account is clicked on the navigation bar:
+
+    **Input Example**: Click on My Account on the navigation bar
+
+    **Output Example**: Redirected to the profile editing form
+
+* The program should load the live site on a new tab when View Site is clicked:
+
+    **Input Example**: Click on View Site
+
+    **Output Example**: Live site of a specific project loads on a new tab
+
+
 
 ## Setup/Installation Requirements
 To start using this project use the following commands:
