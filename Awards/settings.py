@@ -63,7 +63,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap3',
     'bootstrap4',
-    'ranks.apps.RanksConfig',
+    'rank.apps.RankConfig',
 ]
 
 MIDDLEWARE = [
